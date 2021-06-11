@@ -1,0 +1,74 @@
+.ftco-section {
+    background-color: #f3f0eb;
+    padding: 6em 0;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.staff{
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 0;
+    transition: all .3s ease;
+}
+
+
+.staff .img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    background-position: top center;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid #f3f0eb;
+    z-index: 0;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.staff .text{
+    position: relative;
+    background: #fff;
+    padding: 110px 30px 30px 30px;
+    border-radius: 0;
+    width: 100%;
+    margin: 0 0 0 auto;
+    transition: all .3s ease;
+    margin-top: -90px;
+    z-index: -1;
+    box-shadow: 0 5px 25px -2px rgba(0,0,0,.01);
+} 
+
+.staff h3{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Patrick Hand",cursive;
+}
+
+.staff .position{
+    color: #d49a3a;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.staff .ftco-social{
+    padding: 0;
+}
+
+.staff .ftco-social li{
+    list-style: none;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.staff .ftco-social li a{
+    width: 34px;
+    height: 34px;
+    background: #d49a3a;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+}

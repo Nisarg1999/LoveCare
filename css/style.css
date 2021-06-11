@@ -1,0 +1,521 @@
+body{
+    font-family: "Poppins",Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #666;
+}
+
+
+.navbar{
+    background: transparent !important;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 400;
+    position: absolute;
+    z-index: 3;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 0;
+}
+
+.container-xl{
+    max-width: 1220px;
+}
+
+.navbar-brand{
+    line-height: 1.1;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Patrick Hand', cursive;
+    color: #fff;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+
+}
+
+
+.navbar-brand span{
+    color: rgba(255,255,255,.8);
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-size: 11px;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: "Poppins",Arial,sans-serif;
+}
+
+.navbar-brand small{
+    font-size: 30px;
+    color: #d49a3a;
+}
+
+.navbar-collapse{
+    display: flex;
+}
+
+.nav-link{
+    font-size: 18px;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    color: rgba(255,255,255,.7);
+    font-weight: 400;
+    font-family: "Patrick Hand",cursive;
+    letter-spacing: 1px;
+}
+
+.active{
+    color: #fff;
+}
+
+
+/* heading section */
+
+
+.hero-wrap{
+    background-image: url("xbg_1.jpg.pagespeed.ic.65uHO5Twp3.webp");
+    height: 100vh;
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: 0;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: linear-gradient(135deg,#0a4f53 0%,rgba(145,129,66,.1) 67%,rgba(212,154,58,.1) 100%);
+    z-index: -1;
+}
+
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1220px;
+}
+
+.hero-wrap .slider-text{
+    height: 100vh;
+    min-height: 750px;
+    color: rgba(255,255,255,.8);
+    z-index: 3;
+}
+
+.subheading{
+    font-weight: 400;
+    color: rgba(255,255,255,.9);
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 0;
+}
+
+.col-lg-6 h1{
+    font-weight: 400;
+    color: #fff;
+    font-size: 80px;
+    line-height: 1.2;
+    font-family: "Patrick Hand",cursive;
+}
+
+.btn.btn-primary{
+    background: #d49a3a !important;
+    border: 1px solid #d49a3a !important;
+    color: #fff !important;
+}
+
+.btn{
+    padding: 9px 12px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* heading over */
+
+/* about */
+
+.heading-section .subheading{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    color: #d49a3a;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.heading-section h2{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: "Patrick Hand",cursive;
+    color: #39311d;
+}
+
+.heading-section p {
+    color: #949392;
+}
+
+.services-2{
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    box-shadow: 0 5px 25px -2px rgba(0,0,0,.01);
+    text-decoration: none;
+}
+
+.services-2 .icon{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background: #d49a3a;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.fas, .far{
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.services-2 .text h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: "Patrick Hand",cursive;
+    color: #6a919a;
+    text-decoration: none;
+}
+
+/* number part */
+
+.fixed-img{
+    background-image: url("yannis-h-uaPaEM7MiQQ-unsplash.jpg");
+    padding: 7em 0;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed;
+    margin-top: -50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ftco-section-counter .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #063c3f;
+    z-index: -1;
+}
+
+.heading-section-white .subheading{
+    color: #fff;
+}
+
+.heading-section-white h2{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.section-counter .counter-wrap-2{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    display: block;
+    text-align: center;
+    background: rgba(255,255,255,.1);
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.counter-wrap-2 .icon{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background: #d49a3a;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.counter-wrap-2 .icon{
+    background: unset;
+}
+
+.section-counter .number{
+    font-size: 44px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 5px;
+    display: block;
+    letter-spacing: 2px;
+    font-family: "Patrick Hand",cursive;
+} 
+
+.section-counter .caption{
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    color: rgba(255,255,255,.8);
+    text-transform: uppercase;
+}
+
+/* volunteer */
+
+.ftco-section {
+    background-color: #f3f0eb;
+    padding: 6em 0;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+
+.staff{
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 0;
+    transition: all .3s ease;
+}
+
+
+.staff .img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    background-position: top center;
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid #f3f0eb;
+    z-index: 0;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.staff .text{
+    position: relative;
+    background: #fff;
+    padding: 110px 30px 30px 30px;
+    border-radius: 0;
+    width: 100%;
+    margin: 0 0 0 auto;
+    transition: all .3s ease;
+    margin-top: -90px;
+    z-index: -1;
+    box-shadow: 0 5px 25px -2px rgba(0,0,0,.01);
+} 
+
+.staff h3{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Patrick Hand",cursive;
+}
+
+.staff .position{
+    color: #d49a3a;
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.staff .ftco-social{
+    padding: 0;
+}
+
+.staff .ftco-social li{
+    list-style: none;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.staff .ftco-social li a{
+    width: 34px;
+    height: 34px;
+    background: #d49a3a;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+/* footer */
+
+.ftco-footer{
+    padding: 6em 0 0 0;
+    position: relative;
+    z-index: 0;
+    color: rgba(255,255,255,.9);
+    background: #042628;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.ftco-footer .ftco-footer-widget h2{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins",Arial,sans-serif;
+}
+
+.ftco-footer .logo a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 34px;
+} 
+
+.ftco-footer .logo small{
+    font-size: 34px;
+    color: #d49a3a;
+}
+
+.ftco-footer-social{
+    padding: 0 !important;
+    margin: 0;
+    position: relative;
+}
+
+.ftco-footer-social li{
+    list-style: none;
+    margin: 0 0 0 0;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    padding-left: 0 !important;
+}
+
+.ftco-footer-social li a{
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    display: block;
+    color: #fff;
+    border-radius: 4px;
+    position: relative;
+    background: #d49a3a;
+}
+
+.ftco-footer-social li a i{
+    position: absolute;
+    font-size: 17px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    color: #fff !important;
+}
+
+.ftco-footer .block-21 .blog-img{
+    display: block;
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ftco-footer .block-21 .text{
+    width: calc(100% - 80px);
+    padding-left: 20px;
+}
+
+.ftco-footer .block-21 .text .meta div{
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.ftco-footer .block-21 .text .meta a{
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+} 
+
+.ftco-footer .block-21 .text .heading{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0;
+    font-family: "Poppins",Arial,sans-serif;
+}
+
+.ftco-footer .block-21 .text .heading a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Poppins",Arial,sans-serif;
+}
+
+.ftco-footer .ftco-footer-widget h2, .ftco-footer .ftco-footer-widget .h2 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins",Arial,sans-serif;
+}
+
+.ftco-footer .block-23 ul {
+    padding: 0;
+}
+
+.ftco-footer .block-23 ul li, .ftco-footer .block-23 ul li > a {
+    display: table;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.ftco-footer .block-23 ul li .icon {
+    width: 40px;
+    font-size: 15px;
+    padding-top: 2px;
+    color: #fff !important;
+}
+
+.block-23 ul li .text {
+    display: table-cell;
+    vertical-align: top;
+    color: rgba(255,255,255,.9) !important;
+}

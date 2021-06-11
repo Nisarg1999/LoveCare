@@ -1,0 +1,64 @@
+.heading-section .subheading{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    color: #d49a3a;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.heading-section h2{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: "Patrick Hand",cursive;
+    color: #39311d;
+}
+
+.heading-section p {
+    color: #949392;
+}
+
+.services-2{
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    box-shadow: 0 5px 25px -2px rgba(0,0,0,.01);
+    text-decoration: none;
+}
+
+.services-2 .icon{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background: #d49a3a;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.fas, .far{
+    font-size: 40px;
+    line-height: 1.2;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.services-2 .text h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: "Patrick Hand",cursive;
+    color: #6a919a;
+    text-decoration: none;
+}

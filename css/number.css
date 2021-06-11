@@ -1,0 +1,79 @@
+.fixed-img{
+    background-image: url("yannis-h-uaPaEM7MiQQ-unsplash.jpg");
+    padding: 7em 0;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed;
+    margin-top: -50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ftco-section-counter .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #063c3f;
+    z-index: -1;
+}
+
+.heading-section-white .subheading{
+    color: #fff;
+}
+
+.heading-section-white h2{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.section-counter .counter-wrap-2{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    display: block;
+    text-align: center;
+    background: rgba(255,255,255,.1);
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.counter-wrap-2 .icon{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    background: #d49a3a;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.counter-wrap-2 .icon{
+    background: unset;
+}
+
+.section-counter .number{
+    font-size: 44px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    display: inline-block;
+    margin-bottom: 5px;
+    display: block;
+    letter-spacing: 2px;
+    font-family: "Patrick Hand",cursive;
+} 
+
+.section-counter .caption{
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    color: rgba(255,255,255,.8);
+    text-transform: uppercase;
+}
