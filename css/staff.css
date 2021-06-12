@@ -41,6 +41,11 @@
     box-shadow: 0 5px 25px -2px rgba(0,0,0,.01);
 } 
 
+.staff .text:hover{
+    background: #0a686e;
+    color: #fff;
+}
+
 .staff h3{
     font-size: 28px;
     font-weight: 500;
